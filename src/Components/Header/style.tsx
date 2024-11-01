@@ -6,6 +6,7 @@ const NavContainer = styled.nav`
   align-items: center;
   position: fixed;
   margin-top: 2vh;
+  z-index: 10;
 `;
 
 const NavItem = styled.div<{ isActive: boolean; isHovered: boolean }>`
